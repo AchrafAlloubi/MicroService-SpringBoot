@@ -1,10 +1,8 @@
-package org.sid.compteservice.service;
+package org.sid.compteservice.web;
 
 import org.sid.compteservice.entities.Compte;
 import org.sid.compteservice.repositories.CompteRepository;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 public class CompteRestController {
